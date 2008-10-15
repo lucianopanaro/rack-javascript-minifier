@@ -1,0 +1,12 @@
+Rack Javascript Minifiert
+=========
+
+A simple middleware that will intercept any request for javascript files, minify 
+them and return them. 
+
+This was developed as an example of implementing a rack middleware. Even though 
+tested (check specs) it is not intended for production.
+
+Check example for usage guide. You can run it with thin: 
+
+    thin start -R config.ru
