@@ -1,4 +1,4 @@
-Rack Javascript Minifiert
+Rack Javascript Minifier
 =========
 
 A simple middleware that will intercept any request for javascript files, minify 
